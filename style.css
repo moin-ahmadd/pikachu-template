@@ -14,7 +14,7 @@ body {
 .container {
     height: 95%;
     width: 95%;
-    border-radius: 10px;
+    border-radius: 20px;
     position: relative;
     overflow: hidden;
     transform: translate(2.5%, 2.5%);
@@ -38,61 +38,64 @@ body {
     border-radius: 0 10px 10px 0;
 }
 
-.pikachu {
-    position: absolute;
-    width: 270px;
-    height: auto;
-    top: 40px;
-    left: 42.5%;
-}
-
-.logo {
-    position: absolute;
-    width: 65px;
-    top: 0px;
-    left: 10px;
-    transform: translateY(-10%);
-}
 
 .content {
     position: absolute;
     top: 28%;
-    margin-left: 30px;
+    margin-left: 60px;
 
 }
 
 .content h6 {
     letter-spacing: 5px;
-    font-size: 6px;
-    margin-bottom: 8px;
+    font-size: 11px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .content h1 {
-    font-size: 50px;
-    margin-bottom: 8px;
+    font-size: 120px;
+    margin-bottom: 10px;
 }
 
 .content p {
-    font-size: 8px;
-    width: 200px;
-    margin-bottom: 15px;
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 10px;
 }
 
 .content h5 {
-    font-size: 10px;
+    font-size: 15px;
     width: 200px;
-    margin-bottom: 15px;
+}
+
+.pikachu {
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 70px;
+    left: 42.2%;
+}
+
+.logo {
+    position: absolute;
+    width: 140px;
+    top: 0px;
+    left: 40px;
+    transform: translateY(-10%);
+}
+
+.menu {
+    position: absolute;
+    right: 40px;
+    font-size: 40px;
+    top: 20px;
 }
 
 .pokeball {
-    width: 80px;
+    width: 180px;
     position: absolute;
     bottom: 0px;
-    left: 20px;
-    transform: translateY(25%);
-}
-.menu{
-    position: absolute;
-    right: 15px;
-    top: 15px;
+    left: 40px;
+    transform: translateY(27%);
 }
